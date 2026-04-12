@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lunar Defense</title>
+<style>
+ :root{color-scheme:dark;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+ body{margin:0;background:#091224;display:flex;
+  justify-content:center;align-items:center;
+  height:100vh;flex-direction:column;color:#d7def0;
+  overflow:hidden;touch-action:none}
+ canvas{image-rendering:pixelated;image-rendering:crisp-edges;
+  border:2px solid #30405f;background:#1d2b53}
+ .notes{max-width:640px;line-height:1.5;font-size:14px;color:#aab8cc;margin-top:12px;text-align:center}
+ code{color:#fff1e8}
+ #start-btn{display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+  font-size:24px;padding:16px 32px;background:#1d2b53;color:#fff1e8;border:2px solid #ff77a8;
+  cursor:pointer;font-family:inherit;z-index:10}
+ #start-btn:hover{background:#30405f}
+</style>
+</head>
+<body>
+<button id="start-btn">Click to Start</button>
+<canvas id="game" width="128" height="128"></canvas>
+<div class="notes">
+ <div><strong>Lunar Defense</strong></div>
+ <div><code>Left/Right</code> target &nbsp; <code>Z</code> act on target &nbsp; <code>X</code> cycle special &nbsp; <code>Enter/P</code> pause</div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive (old versions, not needed in public repo)
+archive/
+
+# Playwright / tooling
+.playwright-cli/
+.playwright-mcp/
+
+# Claude Code project files
+.claude/
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
