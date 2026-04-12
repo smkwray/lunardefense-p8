@@ -4,7 +4,7 @@ A strategic cislunar orbital defense game built for [PICO-8](https://www.lexalof
 
 **[Play in Browser](https://smkwray.github.io/lunardefense-p8/demo/)**
 
-![Title Screen](screenshots/title.png) ![Gameplay](screenshots/gameplay.png)
+![Title Screen](screenshots/title.png)
 
 ## Story
 
