@@ -9,8 +9,10 @@ archive/
 .playwright-cli/
 .playwright-mcp/
 
-# Claude Code project files
+# Claude Code / AI development files
 .claude/
+CLAUDE.md
+PHASE_PLAN.md
 
 # Editor
 *.swp
