@@ -21,3 +21,4 @@ PHASE_PLAN.md
 
 # Node
 node_modules/
+.private-denylist
