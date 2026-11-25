@@ -120,4 +120,4 @@ python3 -m http.server 8000
 
 ## License
 
-This repository does not include a license yet.
+MIT. See [LICENSE](LICENSE).
